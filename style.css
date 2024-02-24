@@ -1,0 +1,221 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.body{
+  width: 100%;
+  margin: 0 auto;
+}
+nav{
+  height: 80px;
+ 
+  display: flex;
+  justify-content: space-between;
+  
+}
+.logo img{
+  width: 100px;
+  height: 60px;
+}
+.menu ul{
+  margin-top: 20px;
+  margin-right: 20px;
+}
+.menu ul li{
+  
+  align-items: center;
+  text-align: center;
+  line-height: 20px;
+  display: inline;
+  padding: 10px;
+  
+}
+.menu ul li a{
+  
+  text-decoration: none;
+  font-size: 20px;
+  padding: 14px 16px;
+}
+.header{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+ 
+  margin: 60px 0;
+}
+.text{
+  margin: 0px 30px;
+  width: 50%;
+}
+.text h1{
+color: #FFD23F;
+font-size: 60px;
+}
+.text h3{
+  font-size: 40px;
+}
+.text button{
+  margin-top: 30px;
+  padding: 14px 30px;
+  background-color: #FFD23F;
+}
+.header-image img{
+   margin: 0px 30px;
+  width: 50%;
+  margin-left: 100px;
+  
+}
+section{
+background: #EEEEEE;
+margin: 80px 0px;
+
+}
+.our-menu-area{
+  padding-top: 100px;
+  
+  
+}
+.our-menu{
+display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  
+}
+.menu-card{
+  margin-bottom: 120px;
+  padding: 10px 10px 10px 15px;
+  width: 350px;
+  height: 500px;
+  background-color: #ffffff;
+}
+.menu-card img{
+ border-radius: 5px;
+  width: 335px;
+  height: 200px;
+  margin: 10px 0px;
+}
+.menu-card div{
+  margin-top: 30px;
+  display: flex;
+}
+.menu-card p{
+  font-size: 19px;
+  margin: 10px 0px;
+}
+.menu-card div button{
+  
+  border-radius: 5px;
+  color: wheat;
+  background: #191919;
+  padding: 14px 30px;
+}
+.menu-card h2{
+margin: 10px 0px;
+  font-size: 38px;
+}
+.menu-card div h2{
+  margin-left: 10px;
+  font-size: 38px;
+}
+/* .width{
+  width: 200px;
+  height: 120px;
+} */
+/* .week-card img{
+  width: 30%;
+} */
+.service,.week-menu,.footer{
+  display: flex;
+  justify-content: space-evenly;
+  
+}
+.service,.footer{
+  background: #ffffff;
+}
+.week-card{
+  width: 300px;
+  text-align: center;
+  border: 1px solid gray;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.menu-area{
+  height: 400px;
+  padding: 20px 0px;
+  text-align: center;
+}
+.menu-area h2,.menu-area p{
+margin-bottom: 10px;
+}
+.menu-area p{
+  font-size: 30px;
+  color: #FFD23F;
+}
+.week-card{
+  
+}
+ .menu-card .wishlist{
+  
+  top: 30px;
+  right: 80px;
+  border-radius: 50%;
+  background: #FFD23F;
+  padding: 5px 0px;
+  width: 50px;
+  height: 30px;
+  position: absolute;
+ }
+ .menu-card .wishlist i{
+  top: 8px;
+  left: 10px;
+  position: relative;
+ }
+.week-card span{
+  top: 10px;
+  right: 20px;
+  background: #FFD23F;
+  padding: 5px 0px;
+  width: 50px;
+  height: 30px;
+  position: absolute;
+}
+.week-card img{
+  width: 300px;
+  height: 200px;
+}
+.service-card{
+  padding: 20px 20px;
+  width: 27%;
+  height: 200px;
+ 
+  text-align: center;
+}
+.service-card img {
+  /* margin: 0 90px; */
+  width: 40%;
+  height: 100px;
+}
+.footer{
+  padding: 30px 0;
+  height: 130px;
+  background: tan;
+}
+
+.footer a, .footer li{
+  color: black;
+  list-style: none;
+  text-decoration: none;
+
+}
+.footer-item a{
+  padding: 14px 16px;
+}
+.footer-item a:hover{
+  padding: 14px 16px;
+  background: goldenrod;
+  display: block;
+}
+.footer-item span{
+  margin: 20px 0px;
+}
+.footer-item span i{
+  margin-right: 10px;
+}
